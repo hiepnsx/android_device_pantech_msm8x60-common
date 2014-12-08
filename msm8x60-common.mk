@@ -286,7 +286,15 @@ PRODUCT_PACKAGES += \
     qrngtest
 
 #WPA
-PRODUCT_PACKAGES += wpa_supplicant.conf
+PRODUCT_PACKAGES += \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
+#WI-FI
+PRODUCT_PACKAGES += \
+    libnetcmdiface \
+    macloader \
+    dhcpcd.conf
 
 #ZLIB
 PRODUCT_PACKAGES += \
