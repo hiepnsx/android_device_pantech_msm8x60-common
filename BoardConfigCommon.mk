@@ -51,9 +51,7 @@ BOARD_USES_QCOM_HARDWARE := true
 BOARD_USES_QCOM_LIBS := true
 
 # Recovery
-BOARD_CUSTOM_GRAPHICS := ../../../device/pantech/msm8x60-common/recovery/graphics.c
 TARGET_RECOVERY_DEVICE_DIRS += device/pantech/msm8x60-common
-TARGET_RECOVERY_UI_LIB := librecovery_ui_qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 
 # Target info
